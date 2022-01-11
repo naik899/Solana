@@ -5,6 +5,7 @@ const {transferSOL, airDropSol, getWalletBalance} = require('./solana');
 
 const userWallet = web3.Keypair.generate();
 const publicKey = userWallet.publicKey.toString();
+console.log(publicKey);
 
 
 //Treasury
